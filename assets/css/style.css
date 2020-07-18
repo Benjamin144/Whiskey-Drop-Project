@@ -1,0 +1,232 @@
+body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+/* Containers */
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #83090f;
+    color: white;
+}
+
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+
+
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/2+8.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+
+.quotes-container {}
+
+.features-container {}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Containers end */
+
+
+/* block dividers */
+
+.block-divider {
+    width:75px;
+    height: 8px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--blue {  
+    background-color: #098375; 
+}
+
+.block-divider--short {
+    width:40px;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+/* block dividers end */
+
+/* navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left:0;
+    padding-right:0;
+    z-index:1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.25);
+    z-index: 1;
+
+}
+button .d-none,
+.d-md-block {
+    text-align:right;
+    }
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
+
+a.navbar-brand {                     
+    font-weight:bold;
+    
+}
+
+.navbar .navbar-nav a {
+    font-weight:bold;
+}
+/* navbar end */
+
+/*jumbotron*/
+@media screen and (min-width: 576px) {
+  .jumbotron {
+    padding-bottom: 0;
+    padding-top: 210px;
+  }
+}
+        
+
+.jumbotron {
+    background-color: transparent;
+}
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #707679; 
+}
+
+/*jumbotron end*/
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--blue {
+    color: white;
+    background-color: #091783;
+    border-color: #091783;
+    border-style: none;
+}
+.btn--blue:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active, 
+.btn--blue:not(:disabled):not(.disabled):active:focus,
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
+    background-color: #1d266a;
+    border-color: #1d266a;
+    box-shadow: 0 0 0 0.2rem rgb(29, 38, 106,0.5);
+    border-style: none;
+}
+
+.btn-blue-height {
+    height: 35px;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Quotes */
+
+.quote .page-header {
+    margin-bottom: 35px;
+}
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #091783;
+}
